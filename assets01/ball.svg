@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Radial gradient for 3D ball effect -->
+    <radialGradient id="ballGradient" cx="40%" cy="30%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="30%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Shadow gradient -->
+    <radialGradient id="shadowGradient">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Shadow -->
+  <ellipse cx="32" cy="58" rx="20" ry="4" fill="url(#shadowGradient)" />
+  
+  <!-- Main ball -->
+  <circle cx="32" cy="32" r="28" fill="url(#ballGradient)" />
+  
+  <!-- Highlight for extra shine -->
+  <ellipse cx="26" cy="20" rx="12" ry="10" fill="white" opacity="0.4" />
+</svg>

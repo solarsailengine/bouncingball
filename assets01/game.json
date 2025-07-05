@@ -1,0 +1,25 @@
+{
+    "name": "bouncing_ball_scene",
+    "entities": [
+        {
+            "name": "ball",
+            "script": {
+                "path": "ball.lua"
+            },
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "spriterenderer": {
+                "color": [1, 1, 1, 1],
+                "layer": 10
+            },
+            "staticsprite": {
+                "atlas": "atlas",
+                "name": "ball"
+            }
+        }
+    ]
+}

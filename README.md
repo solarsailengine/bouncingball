@@ -2,6 +2,8 @@
 
 A simple demonstration of SolarSail's entity-component system showing a ball bouncing around the screen edges.
 
+![Bouncing Ball Demo](screenshot.png)
+
 ## What It Demonstrates
 
 - SolarSail's coordinate system (origin at center)
